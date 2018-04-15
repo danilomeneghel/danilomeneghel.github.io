@@ -36,21 +36,27 @@ A longo prazo pretendo voltar a estudar inglês, talvez fazer um curso de especi
 ### Cursos
 
 * Windows, Word, Excel, Power Point, Internet 
+
 Entidade: System’s & Star’s Informática   Período:  10 meses - 76 hs aulas  
 
 * Montagem, configuração de computadores, impressoras e redes. 
+
 Entidade: Projetus Informática    Período: 1 mês – 60 hs aulas  
 
 * Inglês 
+
 Entidade: Wizard – Santa Cruz do Sul   Período: 3 semestres 
 
 * Programação Web - PHP e MYSQL 
+
 Entidade: Info Cursos    Período: 1 mês – 30 hs aulas  
 
 * Java EE, EBJ, JSF e Primefaces 
+
 Período: 3 meses
 
 * Asp.Net, C# e Visual Studio 
+
 Período: 1 mês 
 
 ### Rede Social 
