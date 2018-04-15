@@ -1,0 +1,8 @@
+title: Danilo Meneghel
+description: PHP, JS, Python, Asp.Net, C#, Java, JEE, JSF, EJB, SQL
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
