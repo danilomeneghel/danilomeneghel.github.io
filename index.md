@@ -6,33 +6,20 @@ Sou Analista de Sistemas formado em 2011 no curso de Sistemas de Informação pe
 
 ### Conhecimentos 
 
-Programação C, C++, HTML, JavaScript, CSS, Sass, Smarty, Ajax, Jquery, Json, XML, AngularJS, ActionScript, ASP, PHP, Python, NodeJS, Java SE e EE, Servlets, JSP, C#, ASP .NET e PL/SQL.\n
-Banco de Dados MySql, MariaDB, PostgreSql, SQLite, Oracle, MSSql, MongoDB, Webservice SOAP, REST.\n
-
-Modelagem ER, DB Designer, Power Designer e Manipulação de dados ETL Talent, Kettle, Pentaho.
-
-Modelagem UML, Protótipo de Telas (Wireframe), Levantamento de Requisitos, Diagramas de Caso de Uso, Estado, Atividades, Sequencias, Robustez, Domínio e Classes.
-
-Engenharia de Software utilizando Enterprise Architect EA, BizAgi e Astah.
-
-IDE Eclipse, NetBeans, Sublime, Atom e Visual Studio. SGBD MySql Workbench, PgAdmin, Oracle Developer, SQLite Maestro, DBVisualizer e Navicat.
-
-CMS Joomla, WordPress, E-Commerce Magento, WooCommerce, Framework .NET, Zend, Apigility, CodeIgniter, CakePHP, SlimPHP, Yii, Laravel, CRM Pipedrive, LMS Moodle e extração de dependências Composer, Bower e Docker.
-
-Desenvolvimento com MVC, HMVC, DDD, OAuth2, ACL, RBAC, ORM, Validator, Migration, Seed, BootStrap. Controle de Versões SVN, CVS e GIT. Java para Web JEE, JPA, JSF, EJB e Hibernate.
-
-Configurações em servidor web, Apache, Tomcat, Nginx, IIS e GlassFish.
-
-Protocolos de transferência de arquivos FTP, SFTP e SSH.
-
-Programas para desenhos gráficos e fotos, Corel Draw, Corel Photo-Paint, Fireworks e Photoshop.
-
-Sistemas Operacionais Windows, Linux Ubuntu, Debian e Fedora.
-
-Integração com API de Pagamento para E-Commerce e Criptomoedas.
-
-Metodologia ágil para gestão e desenvolvimento ICONIX, KANBAN e SCRUM.
-
+Programação C, C++, HTML, JavaScript, CSS, Sass, Smarty, Ajax, Jquery, Json, XML, AngularJS, ActionScript, ASP, PHP, Python, NodeJS, Java SE e EE, Servlets, JSP, C#, ASP .NET e PL/SQL.<br>
+Banco de Dados MySql, MariaDB, PostgreSql, SQLite, Oracle, MSSql, MongoDB, Webservice SOAP, REST.<br>
+Modelagem ER, DB Designer, Power Designer e Manipulação de dados ETL Talent, Kettle, Pentaho.<br>
+Modelagem UML, Protótipo de Telas (Wireframe), Levantamento de Requisitos, Diagramas de Caso de Uso, Estado, Atividades, Sequencias, Robustez, Domínio e Classes.<br>
+Engenharia de Software utilizando Enterprise Architect EA, BizAgi e Astah.<br>
+IDE Eclipse, NetBeans, Sublime, Atom e Visual Studio. SGBD MySql Workbench, PgAdmin, Oracle Developer, SQLite Maestro, DBVisualizer e Navicat.<br>
+CMS Joomla, WordPress, E-Commerce Magento, WooCommerce, Framework .NET, Zend, Apigility, CodeIgniter, CakePHP, SlimPHP, Yii, Laravel, CRM Pipedrive, LMS Moodle e extração de dependências Composer, Bower e Docker.<br>
+Desenvolvimento com MVC, HMVC, DDD, OAuth2, ACL, RBAC, ORM, Validator, Migration, Seed, BootStrap. Controle de Versões SVN, CVS e GIT. Java para Web JEE, JPA, JSF, EJB e Hibernate.<br>
+Configurações em servidor web, Apache, Tomcat, Nginx, IIS e GlassFish.<br>
+Protocolos de transferência de arquivos FTP, SFTP e SSH.<br>
+Programas para desenhos gráficos e fotos, Corel Draw, Corel Photo-Paint, Fireworks e Photoshop.<br>
+Sistemas Operacionais Windows, Linux Ubuntu, Debian e Fedora.<br>
+Integração com API de Pagamento para E-Commerce e Criptomoedas.<br>
+Metodologia ágil para gestão e desenvolvimento ICONIX, KANBAN e SCRUM.<br>
 Gerenciamento de projetos MS Project, Redmine, Jira e Trello.
 
 ### Objetivos
