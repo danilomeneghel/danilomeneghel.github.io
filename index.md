@@ -6,9 +6,8 @@ Sou Analista de Sistemas formado em 2011 no curso de Sistemas de Informação pe
 
 ### Conhecimentos 
 
-Programação C, C++, HTML, JavaScript, CSS, Sass, Smarty, Ajax, Jquery, Json, XML, AngularJS, ActionScript, ASP, PHP, Python, NodeJS, Java SE e EE, Servlets, JSP, C#, ASP .NET e PL/SQL.
-
-Banco de Dados MySql, MariaDB, PostgreSql, SQLite, Oracle, MSSql, MongoDB, Webservice SOAP, REST.
+Programação C, C++, HTML, JavaScript, CSS, Sass, Smarty, Ajax, Jquery, Json, XML, AngularJS, ActionScript, ASP, PHP, Python, NodeJS, Java SE e EE, Servlets, JSP, C#, ASP .NET e PL/SQL.\n
+Banco de Dados MySql, MariaDB, PostgreSql, SQLite, Oracle, MSSql, MongoDB, Webservice SOAP, REST.\n
 
 Modelagem ER, DB Designer, Power Designer e Manipulação de dados ETL Talent, Kettle, Pentaho.
 
