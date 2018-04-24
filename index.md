@@ -20,7 +20,7 @@ Programas para desenhos gráficos e fotos, Corel Draw, Corel Photo-Paint, Firewo
 Sistemas Operacionais Windows, Linux Ubuntu, Debian e Fedora.<br>
 Integração com API de Pagamento para E-Commerce e Criptomoedas.<br>
 Metodologia ágil para gestão e desenvolvimento ICONIX, KANBAN e SCRUM.<br>
-Gerenciamento de projetos MS Project, Redmine, Jira e Trello.
+Gerenciamento de projetos MS Project, Redmine, Jira e Trello.<br>
 
 ### Objetivos
 
