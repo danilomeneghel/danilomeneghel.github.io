@@ -136,9 +136,7 @@ a.btn:hover {
   background-color: #0A5293;
 }
 .header .actions {
-  /*position: absolute;
-  right: 15px;
-  top: 15px;*/
+  top: 15px;
 }
 .header .actions .fa {
   margin-right: 5px;
@@ -300,6 +298,14 @@ a.btn:hover {
   font-size: 24px;
   text-align: left;
   padding: 0px 0px 10px 35px;
+}
+.section-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.skill-name {
+  font-size: 20px;
 }
 .timeline {
   border-left: 3px solid #4585BC;
@@ -595,8 +601,7 @@ a.btn:hover {
   opacity: 0.9;
 }
 .portfolio-section .item-inner .content {
-  padding: 26px;
-  padding-bottom: 36px;
+  padding: 20px;
   position: relative;
 }
 .portfolio-section .item-inner .content a {
