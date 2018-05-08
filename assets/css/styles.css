@@ -91,7 +91,8 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  background: #6EA8DC;
+  /*background: #6EA8DC;*/
+  background-image: url("../img/background.jpg");
   color: #fff;
 }
 .header a {
@@ -152,26 +153,30 @@ a.btn:hover {
   position: absolute;
   width: 160px;
   height: 160px;
-  top: -80px;
+  top: -30px;
   margin-left: -80px;
   left: 50%;
   border-radius: 50%;
-  border: 5px solid #fff;
+  border: 5px solid #FBFBFB;
 }
 .header .name {
   font-size: 38px;
   margin-top: 15px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
+  margin: 62px 0px 0px 0px;
+  color: #F6F6F6;
+  background-color:rgba(0, 0, 0, 0.6);
 }
 .header .title {
   font-size: 28px;
   font-weight: 350;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 30px;
+  color: #F6F6F6;
+  margin: 4px 50px 85px 50px;
+  background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
-  background: #4585bc;
+  /*background: #4585bc;*/
   padding-top: 90px;
   padding-bottom: 60px;
   position: relative;
@@ -207,6 +212,11 @@ a.btn:hover {
 .header .contact-info li .fa {
   margin-right: 10px;
 }
+
+.intro .container {
+  max-width: 550px !important;
+}
+
 /* Page Nav */
 .page-nav-space-holder {
   height: 60px;
