@@ -178,7 +178,7 @@ a.btn:hover {
 .header .intro {
   /*background: #4585bc;*/
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 66px;
   position: relative;
   font-size: 16px;
 }
@@ -912,6 +912,12 @@ a.btn:hover {
 }
 .config-panel .close .fa {
   color: #fff;
+}
+.tecnologies {
+  background-color: #bed0e0;
+  min-height: 320px;
+  padding: 40px 5px;
+  text-align: center;
 }
 .copyright {
   font-size: 14px;
