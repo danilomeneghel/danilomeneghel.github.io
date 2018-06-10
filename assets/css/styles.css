@@ -60,7 +60,7 @@ a.btn:hover {
   color: #fff;
   text-align: center;
   display: inline-block;
-  z-index: 30;
+  z-index: 100;
   width: 36px;
   height: 36px;
   -webkit-border-radius: 50%;
@@ -94,6 +94,10 @@ a.btn:hover {
   /*background: #6EA8DC;*/
   background-image: url("../img/background.jpg");
   color: #fff;
+  position: relative;
+  max-width: 100% !important;
+  width: 100% !important;
+  z-index: 99;
 }
 .header a {
   color: #fff;
@@ -214,13 +218,14 @@ a.btn:hover {
 }
 
 .intro .container {
-  max-width: 550px !important;
+  /*max-width: 550px !important;*/
 }
 
 /* Page Nav */
 .page-nav-space-holder {
   height: 60px;
   position: relative;
+  z-index: 99;
 }
 .page-nav-wrapper {
   background: #0A5293;
@@ -279,9 +284,25 @@ a.btn:hover {
   margin-right: 0;
 }
 .wrapper {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 55px;
+  padding-bottom: 55px;
 }
+.wrapper {
+  position: relative;
+  max-width: 100% !important;
+  background-color: #f5f5f5;
+  margin-bottom: 380px;
+  z-index: 98;
+}
+
+.container {
+    width: 100%;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .section {
   -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -652,8 +673,11 @@ a.btn:hover {
 }
 
 .footer {
-  width: 100%;
   background-color: #0A5293;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 .footer .container {
   padding: 12px 30px;
@@ -754,6 +778,9 @@ a.btn:hover {
   .contact-section .intro {
     padding-bottom: 20px;
     text-align: center;
+  }
+  .wrapper {
+    margin-bottom: 650px !important;
   }
 }
 /* Small devices (tablets, 768px and up) */
@@ -915,10 +942,19 @@ a.btn:hover {
 }
 .tecnologies {
   background-color: #bed0e0;
-  min-height: 320px;
-  padding: 60px 5px;
+  min-height: 330px;
+  padding: 55px 5px;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  left: 0;
 }
+.tecnologies .container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
 .copyright {
   font-size: 14px;
 }
