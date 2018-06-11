@@ -168,7 +168,7 @@ a.btn:hover {
   margin-top: 15px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
-  margin: 62px 80px 0px 80px;
+  margin: 62px 20px 0px 20px;
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
@@ -176,7 +176,7 @@ a.btn:hover {
   font-size: 28px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 120px 88px 120px;
+  margin: 4px 40px 88px 40px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
@@ -215,6 +215,10 @@ a.btn:hover {
 }
 .header .contact-info li .fa {
   margin-right: 10px;
+}
+.header .container {
+  padding-right: 18% !important;
+  padding-left: 18% !important;
 }
 
 .intro .container {
@@ -297,8 +301,8 @@ a.btn:hover {
 
 .container {
     width: 100%;
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-right: 10%;
+    padding-left: 10%;
     margin-right: auto;
     margin-left: auto;
 }
