@@ -168,7 +168,7 @@ a.btn:hover {
   margin-top: 15px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
-  margin: 62px 0px 0px 0px;
+  margin: 62px 80px 0px 80px;
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
@@ -176,7 +176,7 @@ a.btn:hover {
   font-size: 28px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 50px 88px 50px;
+  margin: 4px 120px 88px 120px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
