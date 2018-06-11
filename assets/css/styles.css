@@ -718,10 +718,14 @@ a.btn:hover {
     margin-bottom: 0;
   }
   .header .name {
-    font-size: 34px;
+    font-size: 32px;
   }
   .header .title {
     font-size: 21px;
+  }
+  .header .container {
+    padding-right: 10% !important;
+    padding-left: 10% !important;
   }
   .header .contact-info li {
     margin-right: 0;
