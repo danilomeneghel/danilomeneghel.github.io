@@ -176,7 +176,7 @@ a.btn:hover {
   font-size: 28px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 40px 88px 40px;
+  margin: 4px 50px 88px 50px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
@@ -718,10 +718,10 @@ a.btn:hover {
     margin-bottom: 0;
   }
   .header .name {
-    font-size: 36px;
+    font-size: 34px;
   }
   .header .title {
-    font-size: 22px;
+    font-size: 21px;
   }
   .header .contact-info li {
     margin-right: 0;
