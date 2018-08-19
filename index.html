@@ -22,17 +22,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
-	<!-- Load Images Tecnologies -->
-	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.tecnologies').hide();
-			window.onload=function(){
-				$('.tecnologies').show();
-			};
-		});
-	</script>
+
+    <!-- Load Images Tecnologies -->
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    	  $('.tecnologies').hide();
+        window.onload=function(){
+      	  setTimeout(function(){
+      			$('.tecnologies').show();
+      	  }, 4500);
+        };
+    	});
+    </script>
   </head>
 
   <body class="">
@@ -698,8 +700,8 @@
             <img src="tecnologies/sass.png" height="60">
             <img src="tecnologies/jquery.png" height="60">
             <img src="tecnologies/angularjs.png" height="60">
-			<img src="tecnologies/vuejs.png" height="60">
-			<img src="tecnologies/reactjs.png" height="60">
+	          <img src="tecnologies/vuejs.png" height="60">
+		        <img src="tecnologies/reactjs.png" height="60">
             <img src="tecnologies/typescript.png" height="60">
             <img src="tecnologies/c++.png" height="60">
             <img src="tecnologies/csharp.png" height="60">
@@ -720,7 +722,7 @@
             <img src="tecnologies/mssql.png" height="60">
             <img src="tecnologies/mongodb.png" height="60">
             <img src="tecnologies/firebase.png" height="60">
-			<img src="tecnologies/api_restful.png" height="60">
+	          <img src="tecnologies/api_restful.png" height="60">
             <img src="tecnologies/apache.png" height="60">
             <img src="tecnologies/tomcat.png" height="60">
             <img src="tecnologies/nginx.png" height="60">
@@ -744,7 +746,7 @@
     <script type="text/javascript" src="assets/js/jquery.easypiechart.min.js"></script>
     <script type="text/javascript" src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
-    	
+
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>
