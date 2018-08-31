@@ -25,12 +25,10 @@
 
     <!-- Load Images Tecnologies -->
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.lazyload.js"></script>
     <script type="text/javascript">
     	$(document).ready(function() {
-    	  $('.tecnologies').hide();
-		  setTimeout(function(){
-		    $('.tecnologies').show();
-		  }, 3500);
+		  $("img.lazy").show().lazyload();
     	});
     </script>
   </head>
@@ -748,7 +746,7 @@
                   CMS Joomla, WordPress and Drupal. E-Commerce Magento, WooCommerce and PrestaShop.<br>
 				  Framework .NET, Django, Rails, Zend, Apigility, CodeIgniter, CakePHP, SlimPHP, Yii, Laravel, Ionic, CRM Pipedrive, LMS Moodle and Extracting Dependencies Composer, NPM, Bower and Docker.<br>
 				  Java for Web JEE, JPA, JSF, EJB and Hibernate. Version Control SVN, CVS and GIT.<br>
-                  Front-end BootStrap, Materialize, HighCharts, Json and Back-end MVC, HMVC, DDD, OAuth2, ACL, RBAC, ORM, Validator, Migration, Seed.<br>
+                  Front-end BootStrap, Materialize, ChartJS, HighCharts, Json and Back-end MVC, HMVC, DDD, OAuth2, ACL, RBAC, ORM, Validator, Migration, Seed.<br>
                   Settings on web server, Apache, Tomcat, Nginx, IIS and GlassFish.<br>
                   FTP, SFTP, and SSH file transfer protocols.<br>
                   Programs for graphic designs and photos, Corel Draw, Corel Photo-Paint, Fireworks and Photoshop.<br>
@@ -771,41 +769,41 @@
 
     <div class="tecnologies">
         <div class="container">
-            <img src="tecnologies/html5.png" height="60">
-            <img src="tecnologies/css3.png" height="60">
-            <img src="tecnologies/js5.png" height="60">
-            <img src="tecnologies/sass.png" height="60">
-            <img src="tecnologies/jquery.png" height="60">
-            <img src="tecnologies/angularjs.png" height="60">
-            <img src="tecnologies/vuejs.png" height="60">
-            <img src="tecnologies/reactjs.png" height="60">
-            <img src="tecnologies/typescript.png" height="60">
-            <img src="tecnologies/c++.png" height="60">
-            <img src="tecnologies/csharp.png" height="60">
-            <img src="tecnologies/nodejs.png" height="60">
-            <img src="tecnologies/php.png" height="60">
-            <img src="tecnologies/asp_net.png" height="60">
-            <img src="tecnologies/java_ee.png" height="60">
-            <img src="tecnologies/python.png" height="60">
-            <img src="tecnologies/ionic.png" height="60">
-            <img src="tecnologies/ruby.png" height="60">
-            <img src="tecnologies/astah.png" height="60">
-            <img src="tecnologies/mysql.png" height="60">
-            <img src="tecnologies/mariadb.png" height="60">
-            <img src="tecnologies/postgres.png" height="60">
-            <img src="tecnologies/sqlite.png" height="60">
-            <img src="tecnologies/oracle.png" height="60">
-            <img src="tecnologies/mssql.png" height="60">
-            <img src="tecnologies/mongodb.png" height="60">
-            <img src="tecnologies/firebase.png" height="60">
-			<img src="tecnologies/composer.png" height="60">
-            <img src="tecnologies/npm.png" height="60">
-            <img src="tecnologies/bower.png" height="60">
-            <img src="tecnologies/api_restful.png" height="60">
-            <img src="tecnologies/apache.png" height="60">
-            <img src="tecnologies/tomcat.png" height="60">
-            <img src="tecnologies/nginx.png" height="60">
-            <img src="tecnologies/glassfish.png" height="60">
+            <img class="lazy" src="tecnologies/html5.png" data-original="tecnologies/html5.png" height="60">
+            <img class="lazy" src="tecnologies/css3.png" data-original="tecnologies/css3.png" height="60">
+            <img class="lazy" src="tecnologies/js5.png" data-original="tecnologies/js5.png" height="60">
+            <img class="lazy" src="tecnologies/sass.png" data-original="tecnologies/sass.png" height="60">
+            <img class="lazy" src="tecnologies/jquery.png" data-original="tecnologies/jquery.png" height="60">
+            <img class="lazy" src="tecnologies/angularjs.png" data-original="tecnologies/angularjs.png" height="60">
+            <img class="lazy" src="tecnologies/vuejs.png" data-original="tecnologies/vuejs.png" height="60">
+            <img class="lazy" src="tecnologies/reactjs.png" data-original="tecnologies/reactjs.png" height="60">
+            <img class="lazy" src="tecnologies/typescript.png" data-original="tecnologies/typescript.png" height="60">
+            <img class="lazy" src="tecnologies/c++.png" data-original="tecnologies/c++.png" height="60">
+            <img class="lazy" src="tecnologies/csharp.png" data-original="tecnologies/csharp.png" height="60">
+            <img class="lazy" src="tecnologies/nodejs.png" data-original="tecnologies/nodejs.png" height="60">
+            <img class="lazy" src="tecnologies/php.png" data-original="tecnologies/php.png" height="60">
+            <img class="lazy" src="tecnologies/asp_net.png" data-original="tecnologies/asp_net.png" height="60">
+            <img class="lazy" src="tecnologies/java_ee.png" data-original="tecnologies/java_ee.png" height="60">
+            <img class="lazy" src="tecnologies/python.png" data-original="tecnologies/python.png" height="60">
+            <img class="lazy" src="tecnologies/ionic.png" data-original="tecnologies/ionic.png" height="60">
+            <img class="lazy" src="tecnologies/ruby.png" data-original="tecnologies/ruby.png" height="60">
+            <img class="lazy" src="tecnologies/astah.png" data-original="tecnologies/astah.png" height="60">
+            <img class="lazy" src="tecnologies/mysql.png" data-original="tecnologies/mysql.png" height="60">
+            <img class="lazy" src="tecnologies/mariadb.png" data-original="tecnologies/mariadb.png" height="60">
+            <img class="lazy" src="tecnologies/postgres.png" data-original="tecnologies/postgres.png" height="60">
+            <img class="lazy" src="tecnologies/sqlite.png" data-original="tecnologies/sqlite.png" height="60">
+            <img class="lazy" src="tecnologies/oracle.png" data-original="tecnologies/oracle.png" height="60">
+            <img class="lazy" src="tecnologies/mssql.png" data-original="tecnologies/mssql.png" height="60">
+            <img class="lazy" src="tecnologies/mongodb.png" data-original="tecnologies/mongodb.png" height="60">
+            <img class="lazy" src="tecnologies/firebase.png" data-original="tecnologies/firebase.png" height="60">
+			<img class="lazy" src="tecnologies/composer.png" data-original="tecnologies/composer.png" height="60">
+            <img class="lazy" src="tecnologies/npm.png" data-original="tecnologies/npm.png" height="60">
+            <img class="lazy" src="tecnologies/bower.png" data-original="tecnologies/bower.png" height="60">
+            <img class="lazy" src="tecnologies/api_restful.png" data-original="tecnologies/api_restful.png" height="60">
+            <img class="lazy" src="tecnologies/apache.png" ata-original="tecnologies/apache.png" height="60">
+            <img class="lazy" src="tecnologies/tomcat.png" data-original="tecnologies/tomcat.png" height="60">
+            <img class="lazy" src="tecnologies/nginx.png" data-original="tecnologies/nginx.png" height="60">
+            <img class="lazy" src="tecnologies/glassfish.png" data-original="tecnologies/glassfish.png" height="60">
         </div>
     </div>
 
