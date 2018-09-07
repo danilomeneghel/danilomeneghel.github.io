@@ -27,10 +27,14 @@
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
     	$( document ).ready(function() {
-			$("#loading").show();
-			$(window).load(function () {
-				$('#loading').fadeOut('slow');
-			});
+			setTimeout(load, 3000);
+			
+			function load() {
+				$("#loading").show();
+				$(window).load(function () {
+					$('#loading').fadeOut('slow');
+				});
+			}
 		});
     </script>
   </head>
