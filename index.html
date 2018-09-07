@@ -25,11 +25,13 @@
 
     <!-- Load Images Tecnologies -->
     <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="assets/js/jquery.lazyload.js"></script>
     <script type="text/javascript">
-    	$(document).ready(function() {
-		  $("img.lazy").show().lazyload();
-    	});
+    	$( document ).ready(function() {
+			$("#loading").show();
+			$(window).load(function () {
+				$('#loading').fadeOut('slow');
+			});
+		});
     </script>
   </head>
 
@@ -81,7 +83,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">Grupo L&S</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Porto Alegre/RS</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Porto Alegre</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Senior Systems Analyst</div>
@@ -103,7 +105,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">CTIS (IBGE)</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Rio de Janeiro/RJ</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Rio de Janeiro</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Systems Analyst</div>
@@ -127,7 +129,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">E-Create</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Rio de Janeiro/RJ</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Rio de Janeiro</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Systems Analyst</div>
@@ -145,8 +147,8 @@
 
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">Outplan Tecnologia</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>São José/SC</div>
+                        <h3 class="place">Outplan</h3>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>São José</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Analyst/Developer</div>
@@ -164,7 +166,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">EMS Ventura</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Florianópolis/SC</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Florianópolis</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Web Developer</div>
@@ -767,7 +769,7 @@
         </section><!--//section-->
     </div><!--//wrapper-->
 
-    <div class="tecnologies">
+    <div id="loading" class="tecnologies">
         <div class="container">
             <img class="lazy" src="tecnologies/html5.png" data-original="tecnologies/html5.png" height="60">
             <img class="lazy" src="tecnologies/css3.png" data-original="tecnologies/css3.png" height="60">

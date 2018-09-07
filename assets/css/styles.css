@@ -301,8 +301,8 @@ a.btn:hover {
 
 .container {
     width: 100%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 8%;
+    padding-left: 8%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -949,11 +949,12 @@ a.btn:hover {
   color: #fff;
 }
 .tecnologies {
+  display: none;
+  position: fixed;
   background-color: #bed0e0;
   min-height: 330px;
   padding: 55px 5px;
   text-align: center;
-  position: fixed;
   width: 100%;
   bottom: 30px;
   left: 0;
@@ -965,8 +966,4 @@ a.btn:hover {
 
 .copyright {
   font-size: 14px;
-}
-
-.lazy {
-  display: none;
 }
