@@ -763,7 +763,7 @@ a.btn:hover {
     padding: 8px 5px;
   }
   .portfolio-section .item-inner .content {
-    padding: 15px;
+    padding: 8px 8px 2px 8px;
   }
   .portfolio-section .item-inner .content .sub-title {
     font-size: 14px;
