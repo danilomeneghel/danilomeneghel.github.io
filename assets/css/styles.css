@@ -636,7 +636,7 @@ a.btn:hover {
   opacity: 0.9;
 }
 .portfolio-section .item-inner .content {
-  padding: 20px;
+  padding: 20px 15px;
   position: relative;
 }
 .portfolio-section .item-inner .content a {
