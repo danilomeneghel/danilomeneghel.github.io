@@ -172,15 +172,14 @@ a.btn:hover {
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
-.header .title {
+.header .profession {
   font-size: 26px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 50px 88px 50px;
+  margin: 4px 46px 88px 46px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
-  /*background: #4585bc;*/
   padding-top: 90px;
   padding-bottom: 66px;
   position: relative;
