@@ -164,7 +164,7 @@ a.btn:hover {
   border: 5px solid #FBFBFB;
 }
 .header .name {
-  font-size: 38px;
+  font-size: 36px;
   margin-top: 15px;
   margin-bottom: 10px;
   letter-spacing: 0.5px;
@@ -173,17 +173,16 @@ a.btn:hover {
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .profession {
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 46px 88px 46px;
+  margin: 4px 32px 88px 32px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
   padding-top: 90px;
-  padding-bottom: 66px;
+  padding-bottom: 70px;
   position: relative;
-  font-size: 16px;
 }
 .header .profile {
   max-width: 800px;
@@ -216,12 +215,8 @@ a.btn:hover {
   margin-right: 10px;
 }
 .header .container {
-  padding-right: 18% !important;
-  padding-left: 18% !important;
-}
-
-.intro .container {
-  /*max-width: 550px !important;*/
+  padding-right: 17% !important;
+  padding-left: 17% !important;
 }
 
 /* Page Nav */
