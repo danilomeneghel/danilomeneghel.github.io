@@ -107,7 +107,6 @@ a.btn:hover {
 }
 .header .top-bar {
   position: relative;
-  padding-top: 15px;
   padding-bottom: 120px;
 }
 .header .social {
@@ -145,6 +144,7 @@ a.btn:hover {
 }
 .header .actions {
   top: 15px;
+  position: absolute;
 }
 .header .actions .fa {
   margin-right: 5px;
@@ -160,7 +160,7 @@ a.btn:hover {
   position: absolute;
   width: 160px;
   height: 160px;
-  top: -30px;
+  top: -15px;
   margin-left: -80px;
   left: 50%;
   border-radius: 50%;
@@ -184,7 +184,7 @@ a.btn:hover {
 }
 .header .intro {
   padding-top: 90px;
-  padding-bottom: 70px;
+  padding-bottom: 126px;
   position: relative;
 }
 .header .profile {
@@ -224,7 +224,7 @@ a.btn:hover {
 
 /* Page Nav */
 .page-nav-space-holder {
-  height: 60px;
+  height: 42px;
   position: relative;
   z-index: 99;
 }
