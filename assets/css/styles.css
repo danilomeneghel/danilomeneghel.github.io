@@ -93,6 +93,9 @@ a.btn:hover {
 .header {
   /*background: #6EA8DC;*/
   background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
   color: #fff;
   position: relative;
   max-width: 100% !important;
@@ -214,7 +217,7 @@ a.btn:hover {
 .header .contact-info li .fa {
   margin-right: 10px;
 }
-.header .container {
+.header .intro .container {
   padding-right: 17% !important;
   padding-left: 17% !important;
 }
@@ -606,7 +609,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .portfolio-section .item-inner {
-  background: #6EA8DC;
+  /*background: #6EA8DC;*/
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -621,9 +624,6 @@ a.btn:hover {
   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
-.portfolio-section .item-inner:hover {
-  background: #0A5293;
-}
 .portfolio-section .item-inner:hover img {
   -webkit-opacity: 0.9;
   -moz-opacity: 0.9;
@@ -632,10 +632,15 @@ a.btn:hover {
 .portfolio-section .item-inner .content {
   padding: 20px 15px;
   position: relative;
+  background: #6EA8DC;
 }
 .portfolio-section .item-inner .content a {
   color: #fff;
 }
+.portfolio-section .item-inner:hover .content {
+  background: #0A5293 !important;
+}
+
 .portfolio-section .item-inner .content .sub-title {
   font-size: 16px;
   margin-top: 0;
@@ -660,6 +665,14 @@ a.btn:hover {
 }
 .portfolio-text {
   font-size: 16px;
+}
+
+.figure {
+  display: block !important;
+  text-align: center !important;
+}
+.figure .img-fluid {
+  height: 160px !important;
 }
 
 .contact-section .intro {
@@ -758,6 +771,7 @@ a.btn:hover {
   }
   .portfolio-section .item-inner .content {
     padding: 8px 8px 2px 8px;
+	background: #6EA8DC;
   }
   .portfolio-section .item-inner .content .sub-title {
     font-size: 14px;
