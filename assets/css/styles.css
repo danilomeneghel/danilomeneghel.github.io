@@ -705,6 +705,9 @@ a.btn:hover {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+  .header {
+    background-size: auto !important;
+  }
   .header .social {
     margin: 0 auto;
     text-align: center;
@@ -743,6 +746,9 @@ a.btn:hover {
   }
   .header .contact-info li:last-child {
     margin-bottom: 0;
+  }
+  .header .actions {
+    position: relative !important;
   }
   .section {
     padding: 25px;
