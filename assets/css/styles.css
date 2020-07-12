@@ -298,8 +298,8 @@ a.btn:hover {
 
 .container {
     width: 100%;
-    padding-right: 7%;
-    padding-left: 7%;
+    padding-right: 8%;
+    padding-left: 8%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -750,6 +750,11 @@ a.btn:hover {
   .header .actions {
     position: relative !important;
   }
+  .container {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
   .section {
     padding: 20px;
   }
@@ -808,7 +813,7 @@ a.btn:hover {
     text-align: center;
   }
   .wrapper {
-    margin-bottom: 450px !important;
+    margin-bottom: 480px !important;
   }
   .tecnologies .container {
 	padding-right: 12px !important;
