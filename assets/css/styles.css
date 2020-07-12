@@ -755,6 +755,7 @@ a.btn:hover {
   }
   .section-title {
     font-size: 20px;
+	margin-bottom: 25px !important;
   }
   .timeline {
     margin-left: 0;
@@ -803,15 +804,15 @@ a.btn:hover {
     font-size: 12px;
   }
   .contact-section .intro {
-    padding-bottom: 20px;
+    padding: 0px 10px !important;
     text-align: center;
   }
   .wrapper {
     margin-bottom: 650px !important;
   }
   .tecnologies .container {
-	padding-right: 15px !important;
-	padding-left: 15px !important;
+	padding-right: 12px !important;
+	padding-left: 12px !important;
   }
   .tecnologies .container img {
 	height: 36px !important;
