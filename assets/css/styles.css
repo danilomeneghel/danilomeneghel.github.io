@@ -751,14 +751,19 @@ a.btn:hover {
     position: relative !important;
   }
   .section {
-    padding: 25px;
+    padding: 20px;
   }
   .section-title {
     font-size: 20px;
   }
   .timeline {
     margin-left: 0;
-    padding-right: 0;
+    padding: 0 0 0 20px;
+  }
+  .timeline .item:before {
+  left: -33px;
+  top: 0;
+  display: inline-block;
   }
   .timeline .place {
     margin-bottom: 5px;
@@ -803,6 +808,14 @@ a.btn:hover {
   }
   .wrapper {
     margin-bottom: 650px !important;
+  }
+  .tecnologies .container {
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+  }
+  .tecnologies .container img {
+	height: 36px !important;
+	margin-bottom: 5px !important;
   }
 }
 /* Small devices (tablets, 768px and up) */
@@ -974,8 +987,8 @@ a.btn:hover {
   left: 0;
 }
 .tecnologies .container {
-  padding-right: 0px !important;
-  padding-left: 0px !important;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .copyright {
