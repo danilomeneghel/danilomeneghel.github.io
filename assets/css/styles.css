@@ -95,7 +95,7 @@ a.btn:hover {
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 102%;
   color: #fff;
   position: relative;
   max-width: 100% !important;
@@ -107,7 +107,7 @@ a.btn:hover {
 }
 .header .top-bar {
   position: relative;
-  padding-bottom: 120px;
+  padding-bottom: 95px;
 }
 .header .social {
   margin-bottom: 0;
@@ -184,7 +184,7 @@ a.btn:hover {
 }
 .header .intro {
   padding-top: 90px;
-  padding-bottom: 126px;
+  padding-bottom: 130px;
   position: relative;
 }
 .header .profile {
