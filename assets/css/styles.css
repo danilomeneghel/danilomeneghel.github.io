@@ -95,7 +95,7 @@ a.btn:hover {
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 102%;
+  background-size: 105%;
   color: #fff;
   position: relative;
   max-width: 100% !important;
@@ -107,7 +107,7 @@ a.btn:hover {
 }
 .header .top-bar {
   position: relative;
-  padding-bottom: 95px;
+  padding-bottom: 115px;
 }
 .header .social {
   margin-bottom: 0;
