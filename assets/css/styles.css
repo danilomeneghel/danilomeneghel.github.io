@@ -292,7 +292,7 @@ a.btn:hover {
   position: relative;
   max-width: 100% !important;
   background-color: #f5f5f5;
-  margin-bottom: 380px;
+  margin-bottom: 400px;
   z-index: 98;
 }
 
@@ -985,7 +985,7 @@ a.btn:hover {
   display: none;
   position: fixed;
   background-color: #bed0e0;
-  min-height: 330px;
+  min-height: 350px;
   padding: 55px 5px;
   text-align: center;
   width: 100%;
