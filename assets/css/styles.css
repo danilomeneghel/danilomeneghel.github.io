@@ -820,7 +820,7 @@ a.btn:hover {
 	padding-left: 12px !important;
   }
   .tecnologies .container img {
-	height: 36px !important;
+	height: 35px !important;
 	margin-bottom: 5px !important;
   }
 }
@@ -986,7 +986,7 @@ a.btn:hover {
   position: fixed;
   background-color: #bed0e0;
   min-height: 350px;
-  padding: 55px 5px;
+  padding: 25px 5px;
   text-align: center;
   width: 100%;
   bottom: 30px;
