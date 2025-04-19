@@ -90,6 +90,9 @@ a.btn:hover {
   font-size: 25px;
   font-weight: normal;
 }
+.d-none {
+  display: block !important;
+}
 .header {
   /*background: #6EA8DC;*/
   background-image: url("../img/background.jpg");
@@ -108,7 +111,7 @@ a.btn:hover {
 .header .top-bar {
   position: relative;
   padding-top: 15px;
-  padding-bottom: 105px;
+  padding-bottom: 110px;
 }
 .header .social {
   margin-bottom: 0;
@@ -733,8 +736,8 @@ a.btn:hover {
     font-size: 21px;
   }
   .header .container {
-    padding-right: 10% !important;
-    padding-left: 10% !important;
+    padding-right: 1% !important;
+    padding-left: 1% !important;
   }
   .header .contact-info li {
     margin-right: 0;
@@ -748,6 +751,11 @@ a.btn:hover {
   }
   .header .actions {
     position: relative !important;
+  }
+  .page-nav-wrapper .page-nav li {
+    margin-right: 10px;
+    display: inline-block;
+    background: none;
   }
   .container {
     width: 100%;
