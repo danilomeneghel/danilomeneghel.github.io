@@ -107,7 +107,8 @@ a.btn:hover {
 }
 .header .top-bar {
   position: relative;
-  padding-bottom: 115px;
+  padding-top: 15px;
+  padding-bottom: 105px;
 }
 .header .social {
   margin-bottom: 0;
@@ -168,10 +169,8 @@ a.btn:hover {
 }
 .header .name {
   font-size: 36px;
-  margin-top: 15px;
-  margin-bottom: 10px;
   letter-spacing: 0.5px;
-  margin: 62px 20px 0px 20px;
+  margin: 92px 30px 0px 30px;
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
@@ -179,7 +178,7 @@ a.btn:hover {
   font-size: 23px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 12px 88px 12px;
+  margin: 4px 22px 48px 22px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
