@@ -171,17 +171,18 @@ a.btn:hover {
   border: 5px solid #FBFBFB;
 }
 .header .name {
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 0.5px;
-  margin: 92px 30px 0px 30px;
+  margin: 78px 22px 0px 22px;
+  padding: 3px 3px;
   color: #F6F6F6;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .profession {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 350;
   color: #F6F6F6;
-  margin: 4px 22px 48px 22px;
+  margin: 4px 22px 30px 22px;
   background-color:rgba(0, 0, 0, 0.6);
 }
 .header .intro {
